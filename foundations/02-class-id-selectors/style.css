@@ -1,0 +1,22 @@
+/*style.css*/
+
+.odd {
+  background: pink;
+  font-family: "Verdana","DejaVu Sans", sans-serif ;
+}
+
+#two {
+    color:blue;
+    font-size: 36px;
+}
+
+.additional {
+    font-size: 24px;
+}
+
+#four {
+    background-color:greenyellow;
+    font-size: 24px;
+    font-weight: bold;
+
+}

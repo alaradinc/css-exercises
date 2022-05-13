@@ -12,6 +12,9 @@ body {
   background: white;
   border-bottom: 1px solid #ddd;
   box-shadow: 0 0 8px rgba(0,0,0,.1);
+  display: flex;
+  justify-content: space-between;
+  padding: 20px;
 }
 
 .profile-image {
@@ -45,4 +48,31 @@ a {
 
 ul {
   list-style-type: none;
+  display: flex;
+  margin: 10px;
+  gap: 20px;
 }
+
+.left, .right {
+display: flex;
+align-items: center;
+gap:20px;
+}
+
+/* 
+
+why did i have to put a '.' in front of 
+left and right? why was it not required for 
+other classes?
+
+why did making this a flex display cause the 
+'left' and 'right' objects to bump up a line?
+
+Answer: Because, we grouped Logo and the links together
+and we grouped notification button and profilie photo together
+as a result we gave them a 'felxible box' to display in, so they bumped up a line
+
+why were they beneath each other in the first place?
+and not on the same line? since there was no <br>?
+
+*/

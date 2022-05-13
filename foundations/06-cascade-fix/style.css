@@ -14,8 +14,14 @@
 
 #confirm-button {
   background: green;
+  padding: 10px;
+  height: 100px;
+  width: 200px;
+  border: 30px;
   color: white;
   font-weight: bold;
+  margin: 60px;
+  box-sizing: border-box;
 } 
 
 .button {

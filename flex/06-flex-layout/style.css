@@ -5,17 +5,37 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  
 }
 
 img {
   width: 600px;
 }
 
+a{
+  text-decoration: none;
+  color: rgb(54, 51, 51);
+  font-size: 26px;
+}
+
+
 button {
   font-family: Roboto, sans-serif;
   border: none;
   border-radius: 8px;
   background: #eee;
+  padding: 10px;
+}
+
+.content {
+  flex: 1; /* I can't figure out how this code affects the page */
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  
 }
 
 input {
@@ -24,4 +44,28 @@ input {
   padding: 8px 24px;
   width: 400px;
   margin-bottom: 16px;
+  }
+
+.header, .footer{
+  display:flex;
+  justify-content: space-between;
+  padding: 26px;
+  }
+
+.footer{
+  background-color: #eee;
+  align-items: flex-end;
 }
+
+
+
+ul {
+  display: flex;
+  list-style-type: none;
+  margin: 0;
+  padding: 0px;
+  gap: 16px
+}
+
+
+
